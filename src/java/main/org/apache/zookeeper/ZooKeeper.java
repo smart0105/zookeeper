@@ -135,6 +135,7 @@ public class ZooKeeper {
     private static final Logger LOG;
     static {
         //Keep these two lines together to keep the initialization order explicit
+        //say yes
         LOG = LoggerFactory.getLogger(ZooKeeper.class);
         Environment.logEnv("Client environment:", LOG);
     }
